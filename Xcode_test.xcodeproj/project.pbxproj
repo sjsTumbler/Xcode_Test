@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		EA68F1F91C531B330052EB08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F1F81C531B330052EB08 /* main.m */; };
 		EA68F1FC1C531B330052EB08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F1FB1C531B330052EB08 /* AppDelegate.m */; };
-		EA68F1FF1C531B330052EB08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F1FE1C531B330052EB08 /* ViewController.m */; };
 		EA68F2021C531B330052EB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2001C531B330052EB08 /* Main.storyboard */; };
 		EA68F2041C531B330052EB08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2031C531B330052EB08 /* Images.xcassets */; };
 		EA68F2071C531B330052EB08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2051C531B330052EB08 /* LaunchScreen.xib */; };
 		EA68F2131C531B330052EB08 /* Xcode_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F2121C531B330052EB08 /* Xcode_testTests.m */; };
+		EA68F2291C5323710052EB08 /* PublicFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F2261C5323710052EB08 /* PublicFunctions.m */; };
+		EA68F22A1C5323710052EB08 /* SNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F2281C5323710052EB08 /* SNavigationBar.m */; };
+		EA68F23B1C5358110052EB08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F23A1C5358110052EB08 /* ViewController.m */; };
+		EA68F23F1C5358D50052EB08 /* S001ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68F23D1C5358D50052EB08 /* S001ViewController.m */; };
+		EA68F2401C5358D50052EB08 /* S001ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA68F23E1C5358D50052EB08 /* S001ViewController.xib */; };
+		EA68F2431C5366B10052EB08 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2411C5366B10052EB08 /* back.png */; };
+		EA68F2441C5366B10052EB08 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2421C5366B10052EB08 /* back@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +39,24 @@
 		EA68F1FA1C531B330052EB08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA68F1FB1C531B330052EB08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EA68F1FD1C531B330052EB08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA68F1FE1C531B330052EB08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA68F2011C531B330052EB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA68F2031C531B330052EB08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA68F2061C531B330052EB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EA68F20C1C531B330052EB08 /* Xcode_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA68F2111C531B330052EB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA68F2121C531B330052EB08 /* Xcode_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xcode_testTests.m; sourceTree = "<group>"; };
+		EA68F2241C5323710052EB08 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		EA68F2251C5323710052EB08 /* PublicFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicFunctions.h; sourceTree = "<group>"; };
+		EA68F2261C5323710052EB08 /* PublicFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicFunctions.m; sourceTree = "<group>"; };
+		EA68F2271C5323710052EB08 /* SNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNavigationBar.h; sourceTree = "<group>"; };
+		EA68F2281C5323710052EB08 /* SNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNavigationBar.m; sourceTree = "<group>"; };
+		EA68F2361C5350AF0052EB08 /* StudyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyHeader.h; sourceTree = "<group>"; };
+		EA68F23A1C5358110052EB08 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA68F23C1C5358D50052EB08 /* S001ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S001ViewController.h; sourceTree = "<group>"; };
+		EA68F23D1C5358D50052EB08 /* S001ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S001ViewController.m; sourceTree = "<group>"; };
+		EA68F23E1C5358D50052EB08 /* S001ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S001ViewController.xib; sourceTree = "<group>"; };
+		EA68F2411C5366B10052EB08 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EA68F2421C5366B10052EB08 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +98,12 @@
 		EA68F1F51C531B330052EB08 /* Xcode_test */ = {
 			isa = PBXGroup;
 			children = (
+				EA68F22B1C534B490052EB08 /* Study */,
+				EA68F2231C53233F0052EB08 /* Tools */,
 				EA68F1FA1C531B330052EB08 /* AppDelegate.h */,
 				EA68F1FB1C531B330052EB08 /* AppDelegate.m */,
 				EA68F1FD1C531B330052EB08 /* ViewController.h */,
-				EA68F1FE1C531B330052EB08 /* ViewController.m */,
+				EA68F23A1C5358110052EB08 /* ViewController.m */,
 				EA68F2001C531B330052EB08 /* Main.storyboard */,
 				EA68F2031C531B330052EB08 /* Images.xcassets */,
 				EA68F2051C531B330052EB08 /* LaunchScreen.xib */,
@@ -117,6 +136,31 @@
 				EA68F2111C531B330052EB08 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA68F2231C53233F0052EB08 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EA68F2411C5366B10052EB08 /* back.png */,
+				EA68F2421C5366B10052EB08 /* back@2x.png */,
+				EA68F2241C5323710052EB08 /* Manager.h */,
+				EA68F2251C5323710052EB08 /* PublicFunctions.h */,
+				EA68F2261C5323710052EB08 /* PublicFunctions.m */,
+				EA68F2271C5323710052EB08 /* SNavigationBar.h */,
+				EA68F2281C5323710052EB08 /* SNavigationBar.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EA68F22B1C534B490052EB08 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				EA68F2361C5350AF0052EB08 /* StudyHeader.h */,
+				EA68F23C1C5358D50052EB08 /* S001ViewController.h */,
+				EA68F23D1C5358D50052EB08 /* S001ViewController.m */,
+				EA68F23E1C5358D50052EB08 /* S001ViewController.xib */,
+			);
+			path = Study;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +212,7 @@
 				TargetAttributes = {
 					EA68F1F21C531B330052EB08 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = CZ9JBXNS2F;
 					};
 					EA68F20B1C531B330052EB08 = {
 						CreatedOnToolsVersion = 6.4;
@@ -200,8 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA68F2021C531B330052EB08 /* Main.storyboard in Resources */,
+				EA68F2431C5366B10052EB08 /* back.png in Resources */,
 				EA68F2071C531B330052EB08 /* LaunchScreen.xib in Resources */,
+				EA68F2401C5358D50052EB08 /* S001ViewController.xib in Resources */,
 				EA68F2041C531B330052EB08 /* Images.xcassets in Resources */,
+				EA68F2441C5366B10052EB08 /* back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA68F1FF1C531B330052EB08 /* ViewController.m in Sources */,
+				EA68F23B1C5358110052EB08 /* ViewController.m in Sources */,
+				EA68F22A1C5323710052EB08 /* SNavigationBar.m in Sources */,
+				EA68F23F1C5358D50052EB08 /* S001ViewController.m in Sources */,
+				EA68F2291C5323710052EB08 /* PublicFunctions.m in Sources */,
 				EA68F1FC1C531B330052EB08 /* AppDelegate.m in Sources */,
 				EA68F1F91C531B330052EB08 /* main.m in Sources */,
 			);
@@ -347,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Xcode_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Xcode_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +469,7 @@
 				EA68F2181C531B330052EB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA68F2191C531B330052EB08 /* Build configuration list for PBXNativeTarget "Xcode_testTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +478,7 @@
 				EA68F21B1C531B330052EB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
