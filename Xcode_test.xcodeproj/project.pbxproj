@@ -20,6 +20,8 @@
 		EA68F2401C5358D50052EB08 /* S001ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA68F23E1C5358D50052EB08 /* S001ViewController.xib */; };
 		EA68F2431C5366B10052EB08 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2411C5366B10052EB08 /* back.png */; };
 		EA68F2441C5366B10052EB08 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2421C5366B10052EB08 /* back@2x.png */; };
+		EAECFE121C72F99700814FAC /* S002ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAECFE101C72F99700814FAC /* S002ViewController.m */; };
+		EAECFE131C72F99700814FAC /* S002ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAECFE111C72F99700814FAC /* S002ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		EA68F23E1C5358D50052EB08 /* S001ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S001ViewController.xib; sourceTree = "<group>"; };
 		EA68F2411C5366B10052EB08 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		EA68F2421C5366B10052EB08 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		EAECFE0F1C72F99700814FAC /* S002ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S002ViewController.h; sourceTree = "<group>"; };
+		EAECFE101C72F99700814FAC /* S002ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S002ViewController.m; sourceTree = "<group>"; };
+		EAECFE111C72F99700814FAC /* S002ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S002ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +164,9 @@
 				EA68F23C1C5358D50052EB08 /* S001ViewController.h */,
 				EA68F23D1C5358D50052EB08 /* S001ViewController.m */,
 				EA68F23E1C5358D50052EB08 /* S001ViewController.xib */,
+				EAECFE0F1C72F99700814FAC /* S002ViewController.h */,
+				EAECFE101C72F99700814FAC /* S002ViewController.m */,
+				EAECFE111C72F99700814FAC /* S002ViewController.xib */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 				EA68F2021C531B330052EB08 /* Main.storyboard in Resources */,
 				EA68F2431C5366B10052EB08 /* back.png in Resources */,
 				EA68F2071C531B330052EB08 /* LaunchScreen.xib in Resources */,
+				EAECFE131C72F99700814FAC /* S002ViewController.xib in Resources */,
 				EA68F2401C5358D50052EB08 /* S001ViewController.xib in Resources */,
 				EA68F2041C531B330052EB08 /* Images.xcassets in Resources */,
 				EA68F2441C5366B10052EB08 /* back@2x.png in Resources */,
@@ -267,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAECFE121C72F99700814FAC /* S002ViewController.m in Sources */,
 				EA68F23B1C5358110052EB08 /* ViewController.m in Sources */,
 				EA68F22A1C5323710052EB08 /* SNavigationBar.m in Sources */,
 				EA68F23F1C5358D50052EB08 /* S001ViewController.m in Sources */,
