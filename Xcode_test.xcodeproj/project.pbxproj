@@ -20,6 +20,10 @@
 		EA68F2401C5358D50052EB08 /* S001ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA68F23E1C5358D50052EB08 /* S001ViewController.xib */; };
 		EA68F2431C5366B10052EB08 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2411C5366B10052EB08 /* back.png */; };
 		EA68F2441C5366B10052EB08 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68F2421C5366B10052EB08 /* back@2x.png */; };
+		EAE35AEB1C867C7A00D63D65 /* 365.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = EAE35AE91C867C7A00D63D65 /* 365.xlsx */; };
+		EAE35AEE1C867CAD00D63D65 /* S003ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE35AED1C867CAD00D63D65 /* S003ViewController.m */; };
+		EAE35AF11C867E5200D63D65 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE35AF01C867E5200D63D65 /* RootViewController.m */; };
+		EAE35B001C8697D100D63D65 /* 365.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAE35AFF1C8697D100D63D65 /* 365.txt */; };
 		EAECFE121C72F99700814FAC /* S002ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAECFE101C72F99700814FAC /* S002ViewController.m */; };
 		EAECFE131C72F99700814FAC /* S002ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAECFE111C72F99700814FAC /* S002ViewController.xib */; };
 /* End PBXBuildFile section */
@@ -59,6 +63,12 @@
 		EA68F23E1C5358D50052EB08 /* S001ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S001ViewController.xib; sourceTree = "<group>"; };
 		EA68F2411C5366B10052EB08 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		EA68F2421C5366B10052EB08 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		EAE35AE91C867C7A00D63D65 /* 365.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = 365.xlsx; sourceTree = "<group>"; };
+		EAE35AEC1C867CAD00D63D65 /* S003ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S003ViewController.h; sourceTree = "<group>"; };
+		EAE35AED1C867CAD00D63D65 /* S003ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S003ViewController.m; sourceTree = "<group>"; };
+		EAE35AEF1C867E5200D63D65 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EAE35AF01C867E5200D63D65 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EAE35AFF1C8697D100D63D65 /* 365.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 365.txt; sourceTree = "<group>"; };
 		EAECFE0F1C72F99700814FAC /* S002ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S002ViewController.h; sourceTree = "<group>"; };
 		EAECFE101C72F99700814FAC /* S002ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S002ViewController.m; sourceTree = "<group>"; };
 		EAECFE111C72F99700814FAC /* S002ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S002ViewController.xib; sourceTree = "<group>"; };
@@ -146,6 +156,7 @@
 		EA68F2231C53233F0052EB08 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EAE35AE71C867C7A00D63D65 /* wordToPlist */,
 				EA68F2411C5366B10052EB08 /* back.png */,
 				EA68F2421C5366B10052EB08 /* back@2x.png */,
 				EA68F2241C5323710052EB08 /* Manager.h */,
@@ -167,8 +178,21 @@
 				EAECFE0F1C72F99700814FAC /* S002ViewController.h */,
 				EAECFE101C72F99700814FAC /* S002ViewController.m */,
 				EAECFE111C72F99700814FAC /* S002ViewController.xib */,
+				EAE35AEC1C867CAD00D63D65 /* S003ViewController.h */,
+				EAE35AED1C867CAD00D63D65 /* S003ViewController.m */,
+				EAE35AEF1C867E5200D63D65 /* RootViewController.h */,
+				EAE35AF01C867E5200D63D65 /* RootViewController.m */,
 			);
 			path = Study;
+			sourceTree = "<group>";
+		};
+		EAE35AE71C867C7A00D63D65 /* wordToPlist */ = {
+			isa = PBXGroup;
+			children = (
+				EAE35AFF1C8697D100D63D65 /* 365.txt */,
+				EAE35AE91C867C7A00D63D65 /* 365.xlsx */,
+			);
+			path = wordToPlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +281,8 @@
 				EA68F2071C531B330052EB08 /* LaunchScreen.xib in Resources */,
 				EAECFE131C72F99700814FAC /* S002ViewController.xib in Resources */,
 				EA68F2401C5358D50052EB08 /* S001ViewController.xib in Resources */,
+				EAE35AEB1C867C7A00D63D65 /* 365.xlsx in Resources */,
+				EAE35B001C8697D100D63D65 /* 365.txt in Resources */,
 				EA68F2041C531B330052EB08 /* Images.xcassets in Resources */,
 				EA68F2441C5366B10052EB08 /* back@2x.png in Resources */,
 			);
@@ -280,6 +306,8 @@
 				EA68F23B1C5358110052EB08 /* ViewController.m in Sources */,
 				EA68F22A1C5323710052EB08 /* SNavigationBar.m in Sources */,
 				EA68F23F1C5358D50052EB08 /* S001ViewController.m in Sources */,
+				EAE35AEE1C867CAD00D63D65 /* S003ViewController.m in Sources */,
+				EAE35AF11C867E5200D63D65 /* RootViewController.m in Sources */,
 				EA68F2291C5323710052EB08 /* PublicFunctions.m in Sources */,
 				EA68F1FC1C531B330052EB08 /* AppDelegate.m in Sources */,
 				EA68F1F91C531B330052EB08 /* main.m in Sources */,

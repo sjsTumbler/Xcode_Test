@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SNavigationBar.h"
-@interface S002ViewController : UIViewController<SJSNavigationDelegate>
-@property (nonatomic,strong) NSString * parentName;
+#import "RootViewController.h"
+@interface S002ViewController : RootViewController
+
 @end

@@ -1,34 +1,30 @@
 //
-//  S001ViewController.m
+//  RootViewController.m
 //  Xcode_test
 //
-//  Created by SunJishuai on 16/1/23.
+//  Created by SunJishuai on 16/3/2.
 //  Copyright (c) 2016年 SunJishuai. All rights reserved.
 //
 
-#import "S001ViewController.h"
+#import "RootViewController.h"
 
-@interface S001ViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation S001ViewController
-
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //001 输出
-    [self output];
+    // Do any additional setup after loading the view.
+    _SNavi = [[SNavigationBar alloc]initWithTitle:self.viewTitle];
+    [_SNavi setLeftBtn_parentName:self.parentName];
+    _SNavi.delegate = self;
+    [self.view addSubview:_SNavi];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
-#pragma mark     输出
-/**
- @author Jesus   , 16-01-23 14:01:09
- 
- @brief 输出
- */
-- (void)output {
-    //1、NSLog是标准的日志输出方式，可以输出传递进去的格式化字符
-    NSLog(@"hello world, I am NSLog!");
+- (void)SJSNavigationLeftAction:(UIButton *)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

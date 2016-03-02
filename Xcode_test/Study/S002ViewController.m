@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self setNavigationBar];
     
     _getIdentifyBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     _getIdentifyBtn.frame = CGRectMake(100, 100, 150, 50);
@@ -29,14 +28,7 @@
     [_getIdentifyBtn setTitle:@"获取验证码" forState:UIControlStateNormal];
     [self.view addSubview:_getIdentifyBtn];
 }
-//set navigationBar
-- (void)setNavigationBar {
-    _SNavi = [[SNavigationBar alloc]initWithTitle:@"002_60S倒计时"];
-    //    [_SNavi setLeftBtn_bacK];
-    [_SNavi setLeftBtn_parentName:self.parentName];
-    _SNavi.delegate = self;
-    [self.view addSubview:_SNavi];
-}
+
 //由于button是系统样式,把button换成自定义样式就可以解决问题
 -(void)startTime{
     __block int timeout= 60; //倒计时时间

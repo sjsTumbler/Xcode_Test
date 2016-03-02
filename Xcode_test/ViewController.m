@@ -27,7 +27,7 @@
     [self setTable];
 }
 - (void)initData{
-    _functionsArray = [[NSMutableArray alloc]initWithObjects:@"001_输出",@"002_60S倒计时", nil];
+    _functionsArray = [[NSMutableArray alloc]initWithObjects:@"001_输出",@"002_60S倒计时",@"003_excel-->plist", nil];
 }
 //set navigationBar
 - (void)setNavigationBar {
@@ -72,12 +72,21 @@
 
             S001ViewController * svc = [[S001ViewController alloc]init];
             svc.parentName = @"Xcode_Test";
+            svc.viewTitle = [_functionsArray objectAtIndex:indexPath.row];
             [self.navigationController pushViewController:svc animated:YES];
         }
             break;
         case 1:{
             S002ViewController *svc = [[S002ViewController alloc]init];
             svc.parentName = @"Xcode_Test";
+            svc.viewTitle = [_functionsArray objectAtIndex:indexPath.row];
+            [self.navigationController pushViewController:svc animated:YES];
+        }
+            break;
+        case 2:{
+            S003ViewController *svc = [[S003ViewController alloc]init];
+            svc.parentName = @"Xcode_Test";
+            svc.viewTitle = [_functionsArray objectAtIndex:indexPath.row];
             [self.navigationController pushViewController:svc animated:YES];
         }
             break;
