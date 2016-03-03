@@ -36,20 +36,41 @@
         for (int i = 0; i<schoolArr.count; i++) {
             NSMutableDictionary * hhdic = [[NSMutableDictionary alloc]init];
             [hhdic setValue:@(k*1000+i+1) forKey:@"onlyTag"];
-            
-            [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber0"];
-            [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber0"];
-            if (i < 3) {
-                [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber1"];
-                [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber1"];
-            }
-            if (i < 2) {
-                [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber2"];
-                [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber2"];
-            }
-            if (i== 0) {
-                [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber2"];
-                [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber2"];
+            switch (i) {
+                case 0:
+                {
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber0"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber0"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber1"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber1"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber2"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber2"];
+                }
+                    break;
+                case 1:
+                {
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber0"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber0"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"startNumber1"];
+                    [hhdic setValue:@(k*1000000+i*1000+j) forKey:@"endNumber1"];
+                }
+                    break;
+                case 2:
+                {
+                    [hhdic setValue:@(119000000+i*1000+j) forKey:@"startNumber0"];
+                    [hhdic setValue:@(119000000+i*1000+j) forKey:@"endNumber0"];
+                    [hhdic setValue:@(119000000+i*1000+j) forKey:@"startNumber1"];
+                    [hhdic setValue:@(119000000+i*1000+j) forKey:@"endNumber1"];
+                }
+                    break;
+                case 3:
+                {
+                    [hhdic setValue:@(120000000+i*1000+j) forKey:@"startNumber0"];
+                    [hhdic setValue:@(120000000+i*1000+j) forKey:@"endNumber0"];
+                }
+                    break;
+                default:
+                    break;
             }
             [hhdic setValue:[schoolArr objectAtIndex:i] forKey:@"title"];
             
