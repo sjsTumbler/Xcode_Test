@@ -238,8 +238,45 @@
         return [[[editArray objectAtIndex:0]componentsSeparatedByString:@"年"]lastObject];
     }
 }
-
-
+//将时间戳转换成时间
+-(NSString *)dateTimeToString:(double)dateTime Type:(int)type{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init] ;
+    [formatter setDateStyle:NSDateFormatterMediumStyle];
+    [formatter setTimeStyle:NSDateFormatterShortStyle];
+    switch (type) {
+        case 0:
+            [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+            break;
+        case 1:
+            [formatter setDateFormat:@"MM-dd HH:mm"];
+            break;
+        case 2:
+            [formatter setDateFormat:@"HH:mm"];
+        default:
+            break;
+    }
+    // ----------设置你想要的格式,hh与HH的区别:分别表示12小时制,24小时制
+    NSTimeZone* timeZone = [NSTimeZone timeZoneWithName:@"Asia/Shanghai"];
+    [formatter setTimeZone:timeZone];
+    //    double ddd = (dateTime*24*3600*1000-2209190400000)/1000;
+    NSDate *confromTimesp = [NSDate dateWithTimeIntervalSince1970:dateTime];
+    NSString *confromTimespStr = [formatter stringFromDate:confromTimesp];
+    return confromTimespStr;
+}
+#pragma mark   19 获取当前时间戳
+/**
+ @author Jesus        , 16-02-25 22:02:46
+ 
+ @brief 19 获取当前时间戳
+ 
+ @return double
+ */
+- (double)getDateTime_Now {
+    return [[NSDate date]timeIntervalSince1970];
+}
+- (NSString *)getDateString_Now {
+    return [self dateTimeToString:[self getDateTime_Now] Type:0];
+}
 
 
 

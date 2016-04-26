@@ -36,8 +36,16 @@ typedef NS_ENUM(NSInteger, dataType){
 - (NSString *)deleteCharactersOfstring:(NSString *)str;
 // 009 处理时间戳的显示
 - (NSString *)editDate:(double)idate;
-
-
+// 013将时间戳转换成时间 -- 已经处理了与服务器的时间戳偏差
+/*
+ type: 0  --  yyyy-MM-dd HH:mm:ss
+ type: 1  --  yyyy-MM-dd HH:mm
+ type: 2  --  HH:mm
+ */
+-(NSString *)dateTimeToString:(double)dateTime Type:(int)type;
+//19 获取当前时间戳
+- (double)getDateTime_Now;
+- (NSString *)getDateString_Now;
 
 
 //102 根据不同的附件类型显示图标

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "SNavigationBar.h"
+#import "PublicFunctions.h"
+
 @interface RootViewController : UIViewController<SJSNavigationDelegate>
 @property (nonatomic,strong) NSString * parentName;
 @property (nonatomic,strong) SNavigationBar * SNavi;//导航栏

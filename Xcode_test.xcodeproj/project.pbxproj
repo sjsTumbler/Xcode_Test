@@ -26,6 +26,8 @@
 		EAE35B001C8697D100D63D65 /* 365.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAE35AFF1C8697D100D63D65 /* 365.txt */; };
 		EAECFE121C72F99700814FAC /* S002ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAECFE101C72F99700814FAC /* S002ViewController.m */; };
 		EAECFE131C72F99700814FAC /* S002ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAECFE111C72F99700814FAC /* S002ViewController.xib */; };
+		EAFFAF211CCDAEE4006F07FC /* S004ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFFAF201CCDAEE4006F07FC /* S004ViewController.m */; };
+		EAFFAF251CCDB4DE006F07FC /* LunarSolarConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFFAF241CCDB4DE006F07FC /* LunarSolarConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,10 @@
 		EAECFE0F1C72F99700814FAC /* S002ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S002ViewController.h; sourceTree = "<group>"; };
 		EAECFE101C72F99700814FAC /* S002ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S002ViewController.m; sourceTree = "<group>"; };
 		EAECFE111C72F99700814FAC /* S002ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S002ViewController.xib; sourceTree = "<group>"; };
+		EAFFAF1F1CCDAEE4006F07FC /* S004ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S004ViewController.h; sourceTree = "<group>"; };
+		EAFFAF201CCDAEE4006F07FC /* S004ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S004ViewController.m; sourceTree = "<group>"; };
+		EAFFAF231CCDB4DE006F07FC /* LunarSolarConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarSolarConverter.h; sourceTree = "<group>"; };
+		EAFFAF241CCDB4DE006F07FC /* LunarSolarConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,7 @@
 		EA68F2231C53233F0052EB08 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EAFFAF221CCDB4C6006F07FC /* LunarSolarConverter */,
 				EAE35AE71C867C7A00D63D65 /* wordToPlist */,
 				EA68F2411C5366B10052EB08 /* back.png */,
 				EA68F2421C5366B10052EB08 /* back@2x.png */,
@@ -182,6 +189,8 @@
 				EAE35AED1C867CAD00D63D65 /* S003ViewController.m */,
 				EAE35AEF1C867E5200D63D65 /* RootViewController.h */,
 				EAE35AF01C867E5200D63D65 /* RootViewController.m */,
+				EAFFAF1F1CCDAEE4006F07FC /* S004ViewController.h */,
+				EAFFAF201CCDAEE4006F07FC /* S004ViewController.m */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -193,6 +202,15 @@
 				EAE35AE91C867C7A00D63D65 /* 365.xlsx */,
 			);
 			path = wordToPlist;
+			sourceTree = "<group>";
+		};
+		EAFFAF221CCDB4C6006F07FC /* LunarSolarConverter */ = {
+			isa = PBXGroup;
+			children = (
+				EAFFAF231CCDB4DE006F07FC /* LunarSolarConverter.h */,
+				EAFFAF241CCDB4DE006F07FC /* LunarSolarConverter.m */,
+			);
+			path = LunarSolarConverter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +323,10 @@
 				EAECFE121C72F99700814FAC /* S002ViewController.m in Sources */,
 				EA68F23B1C5358110052EB08 /* ViewController.m in Sources */,
 				EA68F22A1C5323710052EB08 /* SNavigationBar.m in Sources */,
+				EAFFAF211CCDAEE4006F07FC /* S004ViewController.m in Sources */,
 				EA68F23F1C5358D50052EB08 /* S001ViewController.m in Sources */,
 				EAE35AEE1C867CAD00D63D65 /* S003ViewController.m in Sources */,
+				EAFFAF251CCDB4DE006F07FC /* LunarSolarConverter.m in Sources */,
 				EAE35AF11C867E5200D63D65 /* RootViewController.m in Sources */,
 				EA68F2291C5323710052EB08 /* PublicFunctions.m in Sources */,
 				EA68F1FC1C531B330052EB08 /* AppDelegate.m in Sources */,
